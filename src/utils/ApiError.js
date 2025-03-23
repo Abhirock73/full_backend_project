@@ -12,10 +12,7 @@ class ApiError extends Error{
         this.message = message
         this.success = false
 
-        if(stack){
-
-        }
-
+     
      }
 }
 
